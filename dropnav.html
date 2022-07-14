@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        /* position: fixed; */
+        position: sticky;
+        /* top:0;
+        bottom: 0; */
+        width: 100%;
+       
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {text-decoration: none;
+        color: white;
+        display: block;
+        padding: 14px 16px; 
+        text-align: center;
+    }
+           li a.activate{
+        background: rgb(93, 167, 93);
+    }
+    li a:hover:not(.activate){
+        background: #111;
+    }
+    @media screen and (min-width: 490px) {
+        body{
+            margin-top: 13px;
+        }
+        
+    }
+</style>
+</head>
+<body>
+    <ul>
+        <li> <a class="d1"  href="#">HOME </a></li>
+        <li> <a class="d2" href="#">ABOUT US </a></li>
+        <li> <a class="d3" href="#">COURSES </a></li>
+        <li> <a class="d4" href="#">SUPPORT </a></li>
+        <li style="float: right;" class="d5"> <a href="#">DONATE US </a></li>
+    </ul>
+
+</body>
+
+</html>
